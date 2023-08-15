@@ -1,14 +1,14 @@
 from setuptools import setup, find_namespace_packages
 
 setup(
-    name='clean_folder_mp22',
-    version='0.0.1',
+    name='useful',
+    version='1',
     description='Very useful code',
-    url='https://github.com/mishapyt74',
-    author='Misha Pytomets',
-    author_email='mishapyt74@gmail.com',
+    url='http://github.com/dummy_user/useful',
+    author='Flying Circus',
+    author_email='flyingcircus@example.com',
     license='MIT',
     packages=find_namespace_packages(),
     install_requires=['markdown'],
-    entry_points={'console_scripts': ['sort = clean_folder.main:clean']}
+    entry_points={'console_scripts': ['helloworld = useful.some_code:hello_world']}
 )
